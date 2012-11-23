@@ -26,7 +26,11 @@ Install gem RMagick on CentOS 5.5
     ./configure
     make
     make install
+    
+<h3>6. Set the right path</h3>
 
-<h3>6. Install RMagick gem</h3>
+    PKG_CONFIG_PATH=/usr/local/lib/pkgconfig/
+    
+<h3>7. Install RMagick gem</h3>
 
     gem install rmagick
